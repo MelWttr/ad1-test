@@ -1,0 +1,12 @@
+.logo svg {
+  flex-grow: 1;
+  width: 82px;
+  height: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .logo svg{
+    width: 102px;
+    height: 28px;
+  }
+}
